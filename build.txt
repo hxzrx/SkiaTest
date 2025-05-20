@@ -1,0 +1,25 @@
+通过数据线直接编译安装到设备:
+yarn android --appIdSuffix debug
+
+npx react-native run-android --mode=release
+
+
+
+构建 Debug APK
+方法一：使用 Gradle
+./android/gradlew assembleDebug
+
+方法二：使用 React Native CLI (它会调用 Gradle)
+npx react-native build-android --mode=debug
+
+
+
+构建 Release APK
+方法一：使用 Gradle
+./android/gradlew assembleRelease
+
+方法二：使用 React Native CLI (它会调用 Gradle)
+npx react-native build-android --mode=release
+
+方法三: 直接编译到设备
+npx react-native run-android --mode=release
