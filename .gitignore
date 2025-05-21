@@ -31,8 +31,6 @@ local.properties
 *.iml
 *.hprof
 .cxx/
-*.keystore
-!debug.keystore
 .kotlin/
 
 # node.js
@@ -84,4 +82,3 @@ src/config/index.js
 /config
 
 /UsefulTemp
-
